@@ -1,0 +1,15 @@
+﻿[project]
+name = "xachchat"
+version = "1.0.0"
+dependencies = [
+    "flet>=0.85.0",
+    "requests"
+]
+
+[tool.flet]
+org = "com.xach"
+product = "xachchat"
+
+[tool.flet.app]
+module = "main"
+path = "src"
